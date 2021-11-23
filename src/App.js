@@ -2,6 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { nanoid } from 'nanoid';
 import NotesList from "./components/NotesList";
+import Header from './Header';
+import Footer from './Footer';
 
 const App = () => {
   const [notes, setNotes] = useState([
@@ -43,7 +45,9 @@ const addNote = (text) => {
 };
 
 return <div className="container">
+  <Header />
   <NotesList notes={notes} handleAdd={addNote} />
+  <Footer />
 </div>
 }
 

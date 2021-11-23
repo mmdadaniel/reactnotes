@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 3%;
+}
+
+.left-side {}
+
+.left-side span {
+    color: #5D2B49;
+}
+
+.left-side span a {
+    color: #5D2B49;
+    text-decoration: none;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right-side span {}
+
+.right-side span {
+    color: #5D2B49;
+}
+
+.right-side a {
+    margin-top: 5%;
+    color: #5D2B49;
+    text-decoration: none;
+}
+
+.right-side a:hover {
+    color: #5D2B49;
+    text-decoration: none;
+}

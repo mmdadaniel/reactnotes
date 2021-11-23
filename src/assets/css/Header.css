@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding: 2% 2%;
+}
+
+.header h2 {
+    color: #5D2B49;
+    border-bottom: 1px solid #5D2B49;
+}

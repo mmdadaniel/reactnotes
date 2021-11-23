@@ -2,6 +2,8 @@ import React from 'react';
 import Note from "./Note";
 import AddNote from './AddNote';
 
+import '../assets/css/components/NotesList.css';
+
 const NotesList = ({ notes, handleAdd }) => {
     return (
         <div className="notes-list">
