@@ -6,6 +6,8 @@
     border-radius: 10px;
     padding: 1rem;
     min-height: 170px;
+    max-width: 305px;
+    white-space: pre-wrap;
 }
 
 .note p {
@@ -42,4 +44,8 @@ textarea:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.note-footer .note-delete-icon {
+    cursor: pointer;
 }
